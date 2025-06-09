@@ -1,0 +1,59 @@
+.lasagna-heading,.pizza-heading {
+    color: rgb(170, 145, 6);
+    text-align: center;
+}
+* {
+    font-family: cursive;
+    box-sizing: border-box;
+    
+}
+p {
+    text-align: center;
+}
+a.home-button {
+    font-size: 50px;
+}
+.line-para {
+    text-align: center;
+}
+body {
+    background-color: blanchedalmond;
+}
+h2,h3,h4,h5,h6 {
+    color: rgb(199, 121, 3);
+    text-align: center;
+}
+ul li, ol li {
+    color: rgb(54, 45, 3);
+    line-height: 2.3;
+    text-align: center;
+    list-style-position: inside;
+}
+a {
+    color: rgb(63, 37, 3);
+}
+img.pizza {
+    margin: auto;
+    display: block;
+    border: 10px dashed rgb(189, 154, 1)
+}
+img.lasagna {
+    margin: auto;
+    display: block;
+    border: 10px dashed rgb(189, 154, 1)
+}
+h1.index-header {
+    text-align: center;
+    color: rgb(107, 64, 9);
+}
+button.home-button {
+    padding: 5px 10px 20px 5px;
+    background-color: blanchedalmond;
+}
+h3 {
+    font-size: 25px ;
+}
+p.source, a.source {
+    font-size: 20px;
+    color: rgb(78, 39, 3);
+}
