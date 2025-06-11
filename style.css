@@ -65,3 +65,16 @@ button.source {
     margin: 0px auto;
     display: block;    
 }
+ul.lasagna-ingredient-list {
+    display: flex;
+    flex: 1;
+}
+ul.lasagna-ingredient-list li {
+    margin: 10px 10px;
+}
+ol.pizza-steps-list {
+    display: flex;
+}
+ol.pizza-steps-list li {
+    margin: 0px 5px;
+}
