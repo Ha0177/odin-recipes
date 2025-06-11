@@ -78,5 +78,6 @@ ol.pizza-steps-list {
 
 }
 ol.pizza-steps-list li {
+    flex: 1;
     margin: 0px 5px;
 }
