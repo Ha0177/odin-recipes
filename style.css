@@ -58,16 +58,19 @@ a.source {
     color: rgb(78, 39, 3);
     text-align: center;
 }
-button.source {
-    background-color: bisque;
-    width: 200px;
-    height: auto;
-    margin: 0px auto;
-    display: block;    
+div .source {
+    display: flex;
+    justify-self: center;
+    border: 1px solid;
 }
+.source {
+    background-color: bisque;
+    
+}
+
 ul.lasagna-ingredient-list {
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
 }
 ul.lasagna-ingredient-list li {
     margin: 10px 10px;
@@ -75,9 +78,20 @@ ul.lasagna-ingredient-list li {
 ol.pizza-steps-list {
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 
 }
 ol.pizza-steps-list li {
-    flex: 1;
-    margin: 0px 5px;
+    flex: 1 1 auto;
+}
+ul.pizza-ingredients-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
 }
